@@ -86,7 +86,7 @@ h3 {
     background-color: black;
     background-size: cover;
     transition: 1s opacity;
-    border-radius: 50%;
+    border-radius: 12%;
 }
 
 .tm-video-text-overlay {
