@@ -96,6 +96,8 @@ h3 {
 }
 .tm-video-text-overlay h1 {
 	font-size: 3.4rem;
+    position: relative;
+    top:50px;
 }
 .tm-welcome-text {
     margin-top: 65px;
@@ -250,6 +252,8 @@ iframe {
     background-color:rgba(15, 161, 180, 0.668);
     font-weight: 600;
     color: #ffffffc0;
+    position: relative;
+    right:405px;
 }
 
 .tm-btn-send:hover,
