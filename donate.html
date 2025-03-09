@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Payment Portal</title>
+    <link rel="stylesheet" href="styled.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Payment Portal</h1>
+        <button id="connectButton">Connect MetaMask</button>
+        <div id="walletStatus" class="hidden">
+            Connected: <span id="connectedWallet"></span>
+        </div> <h2>OR</h2>
+        <div class="qr-section">
+            <img src="qr.png" alt="QR Code">
+            <h2>Scan to Donate</h2>
+            <div id="qrcode"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
