@@ -21,9 +21,11 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 12px;
   max-width: 1200px;
   margin: auto;
+  padding: 12px;
+
 }
 
 .footer-column {
@@ -1732,4 +1734,8 @@ textarea {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+}
+.part{
+    background-color: rgba(17, 25, 40, 0.6);
+    padding:30px;
 }
