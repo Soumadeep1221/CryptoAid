@@ -202,6 +202,8 @@ img {
     vertical-align: middle;
     border-style: none;
     height: 50vh;
+    background: rgba(165, 165, 165, 0.419);
+    border-radius: 50%;
 }
 
 svg:not(:root) {

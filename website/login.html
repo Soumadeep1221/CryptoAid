@@ -9,7 +9,6 @@
     <link rel="icon" href="/icons/airplane.svg" />
     <link rel="icon" href="https://img.icons8.com/?size=100&id=48179&format=png&color=000000">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/website/admin/style2.css">
   <style>
           /* circle styles */
           .circle {
@@ -50,12 +49,18 @@
             <a href="/forgot_password.html" style="text-decoration: none; color: black;"><p>Forgot Password?</p></a>
             <p class="social-text">OR<br>Sign in with social platforms</p>
 
-              <div class="social-media">
-                <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
-                <!-- <a href="https://x.com/https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> -->
-                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              </div>
+            <div class="social-media">
+              <button class="social-icon" id="microsoft-icon">
+                <img src="img/Microsoft_Logo.png" alt="Microsoft Icon" style="width: 25px; height: 25px;">
+              </button>
+              <button class="social-icon" id="google-icon">
+
+                <img src="./img/google.png" alt="Google Icon" style="width: 30px; height: 30px;">
+              </button>
+              <button class="social-icon" id="githubSignInBtn">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
           </form>
 <form action="#" class="sign-up-form" onsubmit="return validateForm()">
   <h2 class="title">Sign up</h2>
@@ -162,7 +167,7 @@
           <div class="content">
             <h3>New here ?</h3>
             <p>
-              <br> Create your account.
+              Discover new experiences with Voyager! <br> Create your account.
             </p>
             <button class="btn transparent" id="sign-up-btn">
               Sign up
