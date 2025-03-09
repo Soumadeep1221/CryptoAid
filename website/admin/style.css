@@ -496,3 +496,50 @@ tbody tr:nth-child(even) {
         padding-right: 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
+/* Ensure the video container is positioned relatively */
+.tm-video-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+}
+
+/* Style for the video */
+.tm-welcome-video {
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    display: block;
+}
+
+/* Position the text overlay absolutely within the video container */
+.tm-video-text-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    text-align: center;
+    color: white; /* Text color */
+    font-size: 2rem; /* Adjust font size as needed */
+    z-index: 10; /* Ensure it appears above the video */
+    background: transparent; /* Make the background fully transparent */
+}
+
+/* Remove the rotating animation */
+#rotate {
+    display: inline-block;
+    /* Remove the animation */
+    animation: none;
+}
+
+/* Remove the semi-transparent background overlay */
+.tm-video-text-overlay::before {
+    display: none; /* Hide the background overlay */
+}
