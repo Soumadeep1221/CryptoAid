@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: #333333;
     color: #FFFFFF;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
-    background-image: url(/);
+    background-image: url(bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 h3 {
@@ -39,8 +41,8 @@ h3 {
 }
 
 .tm-site-header {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    /* padding-top: 45px;
+    padding-bottom: 45px; */
     margin-bottom: 0;
 }
 
@@ -83,6 +85,7 @@ h3 {
     background-color: black;
     background-size: cover;
     transition: 1s opacity;
+    border-radius: 50%;
 }
 
 .tm-video-text-overlay {
@@ -100,7 +103,7 @@ h3 {
 }
 
 .tm-font-400 {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .tm-text-light-gray {
@@ -239,17 +242,18 @@ iframe {
 }
 
 .tm-btn-send {
-    border-radius: 0;
+    border-radius: 20px;
+    border: none;
     font-size: 1.1rem;
-    padding: 12px 50px;
-    background: transparent;
-    border: 1px solid #CCCCCC;
-    color: #CCCCCC;
+    padding: 12px 40px;
+    background-color:rgba(15, 161, 180, 0.668);
+    font-weight: 600;
+    color: #ffffffc0;
 }
 
 .tm-btn-send:hover,
 .tm-btn-send:focus {
-    background: #CCCCCC;
+    background-color:rgb(238, 246, 247);
     color: #333333;
 }
 

@@ -11,6 +11,18 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- https://getbootstrap.com/ -->
         <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="/website/admin/style2.css">
+        <link rel="icon" href="/icons/airplane.svg" />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        
+        <!-- <link rel="stylesheet" href="assets/css/blog.css" /> -->
+        <!-- <link rel="stylesheet" href="assets/css/RatingStyle.css" /> -->
         <!-- Templatemo style -->
     </head>
     <body>
@@ -40,7 +52,7 @@
                         <div id="tm-video-text-overlay" class="tm-video-text-overlay d-none">
                             <h1>
                                 <div id="rotate" class="tm-video-text">
-                                    <div>Genuine Charity</div>
+                                    <div>CryptoAid</div>
                                     <div>A link between the</div>
                                     <div>Supporters of the cause and</div>
                                     <div>Beneficiaries to the cause</div>
@@ -62,8 +74,7 @@
                     <div class=" tm-timeline-item">
                         <div class="tm-timeline-item-inner">
                             <img src="img/img-01.jpg" alt="Image" class="rounded-circle tm-img-timeline">
-                            <div class="tm-timeline-connector">
-                                <p class="mb-0">&nbsp;</p>
+                            <div class="tm-timeline-connector"> 
                             </div>
                             <div class="tm-timeline-description-wrap">
                                 <div class="tm-bg-dark tm-timeline-description">
@@ -79,7 +90,6 @@
                         <div class="tm-timeline-item-inner">
                             <img src="img/img-02.jpg" alt="Image" class="rounded-circle tm-img-timeline">
                             <div class="tm-timeline-connector">
-                                <p class="mb-0">&nbsp;</p>
                             </div>
                             <div class="tm-timeline-description-wrap">
                                 <div class="tm-bg-dark-light tm-timeline-description">
@@ -95,7 +105,6 @@
                         <div class="tm-timeline-item-inner">
                             <img src="img/img-03.jpg" alt="Image" class="rounded-circle tm-img-timeline">
                             <div class="tm-timeline-connector">
-                                <p class="mb-0">&nbsp;</p>
                             </div>
                             <div class="tm-timeline-description-wrap">
                                 <div class="tm-bg-dark tm-timeline-description">
@@ -124,7 +133,7 @@
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="mt-2 mb-3 tm-text-gray">About the Charity</h3>
+                    <h3 class="mt-2 mb-3 tm-text-gray">About the CryptoAid</h3>
                     <p>
                         The website covers the entire process starting from donations to spending it for necessities in the store with at most precautions.
                     </p>
@@ -132,15 +141,104 @@
             </div>
             <hr>
             <!-- Footer -->
-            <footer class="row mt-5 mb-5">
-                <div class="col-lg-12">
-                    <p class="text-center tm-text-gray tm-copyright-text mb-0">
-                        Copyright &copy;
-                        <span class="tm-current-year">2021</span>
-                        Genuine Charity
-                    </p>
+            <footer id="footer">
+                <div class="footer-container">
+                  <!-- About Us Section -->
+                  <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>Discover and plan affordable trips with Voyager's travel companion tools.</p>
+                    <!-- Newsletter Form Section -->
+                  <style>
+                    .footer-column.newsletter {
+                        max-width: 300px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                    #newsletter-form {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    #email {
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 8px;
+                        box-sizing: border-box;
+                    }
+                    button[type="submit"] {
+                        width: 40%;
+                        padding: 6px;
+                        font-size: 14px;
+                    }
+                    #subscription-message {
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                </style>
+                  <div class="footer-column newsletter" id="newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form id="newsletter-form">
+                      <input type="email" id="email" placeholder="Enter your email" required />
+                      <button type="submit">Subscribe</button>
+                    </form>
+                    <p id="subscription-message"></p>
+                  </div>
+                  </div>
+              
+                  <!-- Quick Links Section -->
+                  <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="faq.html" class="faq-link">FAQs</a></li>
+                      <li><a href="servicespage.html">Services</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- Legal Links Section -->
+                  <div class="footer-column">
+                    <h3>Legal Links</h3>
+                    <ul>
+                      <li><a href="terms_of_service.html">Terms of Service</a></li>
+                      <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                      <li><a href="copyright.html">Copyright Notice</a></li>
+                      <li><a href="disclaimer.html">Disclaimer</a></li>
+                      <li><a href="cookie_policy.html">Cookie Policy</a></li>
+              
+              
+              
+                    </ul>
+                  </div>
+              
+                  <!-- Contact Us Section -->
+                  <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+                    <!-- Follow Us Section -->
+                  <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                      <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+                      <a href="https://x.com/https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                  </div>
                 </div>
-            </footer>
+              
+                <!-- Footer Bottom Section -->
+                <div class="footer-bottom">
+                  <p class="copyright-b">&copy; 2025 Voyager. All rights reserved.</p>
+                </div>
+              </footer>
+            
+                </div>
+              
+                <!-- Footer Bottom Section -->
+              </footer>
         </div>
         <!-- .container -->
         <script src="js/jquery.min.js"></script>
