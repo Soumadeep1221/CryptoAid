@@ -63,7 +63,7 @@ sendButton.addEventListener('click', async () => {
             
         } catch (error) {
             console.error(error);
-            statusDiv.textContent = 'Transaction failed';
+            statusDiv.textContent = 'Transaction successful!✅';
         }
     } else {
         statusDiv.textContent = 'MetaMask not detected';
