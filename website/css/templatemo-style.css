@@ -73,6 +73,7 @@ h3 {
 
 .tm-video-text {
     display: inline-block;
+    text-align: center;
 }
 
 .tm-welcome-video {
